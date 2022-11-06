@@ -1,0 +1,41 @@
+.SearchBox-mainForm {
+    width: 1200px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(3px);
+    border-radius: 8px;
+    margin-top: 200px;
+}
+
+.select {
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+    background: transparent;
+}
+
+.form-field-container {
+    width: fit-content;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 1px grey solid;
+    margin-top: 10px;
+}
+
+.fields-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.non-border {
+    border-right: none;
+}
+
+input {
+    background: transparent;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+    padding-left: 5px;
+}
